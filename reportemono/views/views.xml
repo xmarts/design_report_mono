@@ -19,13 +19,13 @@
             <tr>
                 <th style="background-color:#f36306;color:#fff;border-right:2px solid #fff; padding:5px;text-align:center;font-size:18pt;">
                   <h2>
-                        <span t-if="o.type == 'out_invoice' and o.state in ('open', 'in_payment', 'paid')">Invoice</span>
+                        <!--<span t-if="o.type == 'out_invoice' and o.state in ('open', 'in_payment', 'paid')">Invoice</span>
                         <span t-if="o.type == 'out_invoice' and o.state == 'draft'">Draft Invoice</span>
                         <span t-if="o.type == 'out_invoice' and o.state == 'cancel'">Cancelled Invoice</span>
                         <span t-if="o.type == 'out_refund'">Credit Note</span>
                         <span t-if="o.type == 'in_refund'">Vendor Credit Note</span>
                         <span t-if="o.type == 'in_invoice'">Vendor Bill</span>
-                        <span t-field="o.number"/>
+                        <span t-field="o.number"/>-->
                     </h2>
                 </th>
                 <td style="background-color:#f36306;color:#fff;border-left:2px solid #fff;padding:5px;font-size:8pt;font-weight: 600;"> <t t-call="web.address_layout"/></td>
